@@ -48,6 +48,7 @@ class Node:
         for node in values:
             self.__node_count += node.get_node_count()
 
+
 if __name__ == "__main__":
     root = Node(1)
     root.add_child(Node(0))

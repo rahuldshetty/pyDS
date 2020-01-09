@@ -1,4 +1,3 @@
-
 def inorder_traversal(node):
     if node.is_leaf():
         print(node.get_node_value())
@@ -11,3 +10,5 @@ def inorder_traversal(node):
             if printed == False:
                 print(node.get_node_value())
                 printed = True
+
+
